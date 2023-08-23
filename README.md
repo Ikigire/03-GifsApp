@@ -14,6 +14,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Build for non base urls
+
+Run `ng build:href` to build the project and edit the base href of the index html. The build artifacts will be stored in the `dist/` directory.
+
+## Build for github pages
+
+Run `ng build:github` to build the project, edit the base href of the index html and move files to the `docs` folder for github pages. The build artifacts will be stored in the `dist/` directory.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
